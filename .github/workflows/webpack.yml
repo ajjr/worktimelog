@@ -21,6 +21,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
+        source: ./
+        destination: ./_site
 
     - name: Build
       run: |
