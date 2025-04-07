@@ -24,7 +24,7 @@ class TimeEntryComponent extends HTMLElement {
   }
 
   update() {
-    this.querySelector('x-time-entry-list').list = this.#dayList.slice();
+    this.querySelector('  x-time-entry-list').list = this.#dayList.slice();
     this.querySelector('x-time-entry-summary').update(this.#dayList.slice());
   }
 }
