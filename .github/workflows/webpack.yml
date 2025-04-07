@@ -8,6 +8,8 @@ on:
 
 jobs:
   build:
+    env:
+      defaults.run.working-directory: ./
     runs-on: ubuntu-latest
 
     strategy:
@@ -28,4 +30,3 @@ jobs:
       run: |
         npm install
         npx webpack
-        working-directory: ./
