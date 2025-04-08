@@ -6,9 +6,9 @@ module.exports = {
     app: './js/app.js',
   },
   output: {
-    path: path.resolve(__dirname, 'docs'),
+    path: path.resolve(__dirname, 'dist/worktime-log'),
     clean: true,
-    filename: './docs/js/app.js',
+    filename: './dist/worktime-log/js/app.js',
   },
   module: {
     rules: [
