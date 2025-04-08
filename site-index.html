@@ -1,10 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="./worktime-log/css/style.css">
+  <link rel="stylesheet" href="./worktime-log/js/components/time_entry_list.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="./worktime-log/favicon.ico" sizes="any">
+  <link rel="icon" href="./worktime-log/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./icon.png">
+
+  <link rel="manifest" href="./worktime-log/site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
 </head>
 <body>
-$END$
+
+  <script type="module" src="./worktime-log/dist/worktime-log/js/app.js"></script>
+  <header class="page-header">
+    <h1>Time Entry</h1>
+  </header>
+  <div class="container">
+    <main class="main stack">
+      <x-time-entry-component></x-time-entry-component>
+
+      <div class="copyright-block">
+        <hr>
+        <div class="copyright">
+          Copyright &copy; 2025 A-J Ranta
+        </div>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
